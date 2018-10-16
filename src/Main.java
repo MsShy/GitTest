@@ -5,7 +5,7 @@ public class Main {
         int[] array = {1, -9, 90, 46, -90};
         gitTest.setArr(array);
         gitTest.setSize(array.length);
-        System.out.println(gitTest.minElement(gitTest.getArr(), gitTest.getSize()));
+        System.out.println(gitTest.minElement());
         System.out.println();
     }
 

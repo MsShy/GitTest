@@ -31,14 +31,21 @@ public class GitTest {
                 '}';
     }
 
-    public int minElement(int[] array, int size) {
-        int result = array[0];
+    public int minElement() {
+        int result = arr[0];
         for (int i = 1; i < size; i++) {
-            if(array[i] < result) {
-                result = array[i];
+            if(arr[i] < result) {
+                result = arr[i];
             }
         }
         return result;
+    }
+
+    public int[] increaseByTwo () {
+        for (int i = 0; i < size; i++) {
+            arr[i] *= 2;
+        }
+        return arr;
     }
 
 }
