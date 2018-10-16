@@ -30,4 +30,22 @@ public class GitTest {
                 ", size=" + size +
                 '}';
     }
+
+    public int sum() {
+        int sum = 0;
+        for (int i = 0; i < size; i++){
+            sum += arr[i];
+        }
+        return sum;
+    }
+
+    public int evenNumber() {
+        int evenCounter = 0;
+        for (int i = 0; i < size; i++){
+            if ((arr[i] % 2) == 0){
+                evenCounter++;
+            }
+        }
+        return evenCounter;
+    }
 }
