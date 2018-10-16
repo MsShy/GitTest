@@ -29,15 +29,15 @@ public class GitTest {
         return count;
     }
     //min element
-    public int max() {
-        int max = 0;
+    public int min() {
+        int min = arr[0];
         for (int i = 0; i < size; i++){
-            if(arr[i]>max){
-               max=arr[i];
+            if(arr[i]<min){
+                min=arr[i];
             }
 
         }
-        return max;
+        return min;
     }
 
     //Multiply
