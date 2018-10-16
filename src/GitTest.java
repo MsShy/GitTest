@@ -31,6 +31,24 @@ public class GitTest {
                 '}';
     }
 
+    public int sum() {
+        int sum = 0;
+        for (int i = 0; i < size; i++){
+            sum += arr[i];
+        }
+        return sum;
+    }
+
+    public int evenNumber() {
+        int evenCounter = 0;
+        for (int i = 0; i < size; i++){
+            if ((arr[i] % 2) == 0){
+                evenCounter++;
+            }
+        }
+        return evenCounter;
+    }
+
     public int minElement(int[] array, int size) {
         int result = array[0];
         for (int i = 1; i < size; i++) {
@@ -40,5 +58,6 @@ public class GitTest {
         }
         return result;
     }
+
 
 }
