@@ -28,6 +28,17 @@ public class GitTest {
         }
         return count;
     }
+    //min element
+    public int max() {
+        int max = 0;
+        for (int i = 0; i < size; i++){
+            if(arr[i]>max){
+               max=arr[i];
+            }
+
+        }
+        return max;
+    }
 
     //Multiply
     public int mulp(){
