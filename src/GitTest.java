@@ -23,8 +23,6 @@ public class GitTest {
         this.size = size;
     }
 
-
-
     //Multiply
     public int mulp(){
 
@@ -46,8 +44,6 @@ public class GitTest {
         }
         return result;
     }
-
-
 
     @Override
     public String toString() {
